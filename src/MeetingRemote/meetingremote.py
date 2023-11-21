@@ -3,7 +3,7 @@ from . import MeetingRemote
 
 
 def main():
-    parser = argparse.ArgumentParser(prog='ZoomRemote', description='Remote control Zoom Desktop client.',
+    parser = argparse.ArgumentParser(prog='meetingremote', description='Remote control Zoom Desktop client.',
                                      epilog='Requires GNOME extensions "Window Calls Extended by hseliger" ('
                                             'https://github.com/hseliger/window-calls-extended) and "Activate Window '
                                             'By Title by lucaswerkmeister" ('

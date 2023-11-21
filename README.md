@@ -1,6 +1,7 @@
 # meetingremote
 
-A simple command line remote for common meeting software within the GNOME desktop environment.
+A simple command line remote for common meeting software within the GNOME desktop environment. It's only function is to
+toggle microphone mute and camera. 
 
 Currently supported meeting software:
 - Zoom
@@ -20,4 +21,17 @@ The command relies on special DBus calls which are implemented in GNOME extensio
 
 ```{bash}
 python -m pip install --user git+https://github.com/haemka/meetingremote.git
+```
+
+## Usage
+
+```
+usage: meetingremote [-h] (-m | -c)
+
+Remote control Zoom Desktop client.
+
+options:
+  -h, --help        show this help message and exit
+  -m, --microphone  Toggle microphone.
+  -c, --camera      Toggle camera.
 ```
