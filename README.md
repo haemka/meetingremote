@@ -5,6 +5,7 @@ toggle microphone mute and camera.
 
 Currently supported meeting software:
 - Zoom
+- Skype
 
 Planned implementations:
 
@@ -28,10 +29,11 @@ python -m pip install --user git+https://github.com/haemka/meetingremote.git
 ```
 usage: meetingremote [-h] (-m | -c)
 
-Remote control Zoom Desktop client.
+Remote control Zoom Desktop or Skype client.
 
 options:
   -h, --help        show this help message and exit
   -m, --microphone  Toggle microphone.
   -c, --camera      Toggle camera.
+  -H, --hand        Toggle raise hand (Zoom only).
 ```

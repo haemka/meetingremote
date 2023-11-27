@@ -6,6 +6,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name='MeetingRemote',
+    version='0.0.2',
     description='A simple remote control for common meeting software.',
     long_description=long_description,
     long_description_content_type='text/markdown',
